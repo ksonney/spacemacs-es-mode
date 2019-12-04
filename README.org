@@ -1,0 +1,33 @@
+#+TITLE: es-mode spacemacs layer
+
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#keybindings][Keybindings]]
+- [[#faq][FAQ]]
+
+* Description
+This layer adds support for Lee Hinman's es-mode elasticsearch integration.
+
+More information on elasticsearch can be found at https://elastic.co
+More information on es-mode can be found at https://github.com/dakrone/es-mode
+
+* Install
+To use this configuration layer, you will need to do the following :
+  
+- clone it to =~/.emacs.d/private/es-mode= like so:
+#+BEGIN_SRC shell
+git clone https://github.com/ksonney/spacemacs-es-mode.git ~/.emacs.d/private/es-mode
+#+END_SRC
+- Open up your =~/.spacemacs= file in, well, spacemacs.
+- Add =es-mode= to the =dotspacemacs-configuration-layers=
+- Save your =~/.spacemacs= file and restart (SPC-q-r)
+
+* Keybindings
+- None at this time
+
+* FAQ
+- Why are there no key mappings? 
+  Partly because this is a quick and dirty hack, partly because I'm not sure what would be extra useful. 
+- How do I contribute to make this better?
+  Please submit Pull Requests with updated functionality! Open issues to identify gaps where I should add/remove things!
